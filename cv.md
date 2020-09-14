@@ -19,8 +19,8 @@ const question = [
 
 //random const question
 function question2() { 
-	question2 = question[Math.floor(Math.random() * question.length)];
-  document.write (question2);
+    question2 = question[Math.floor(Math.random() * question.length)];
+    document.write (question2);
 }
 ```
 ## Education
