@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
+  </head>
+  <body>
+    <aside class="wrapper">
+      <img src="./eisenhower-matrix.jpg" alt="eisenhower-matrix" />
+      <a
+        class="wrapper__info"
+        href="https://goal-life.com/page/method/matrix-eisenhower"
+      >
+        Want more details?
+      </a>
+    </aside>
+
+    <article class="main">
+      <section class="add">
+        <div>
+          <h3>Add Item</h3>
+          <div class="add__task-wrapper">
+            <input class="add__task" type="text" />
+            <button>Add</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="incomplete">
+        <h3>Todo</h3>
+        <ul class="incomplete__tasks">
+          <li>
+            <input type="checkbox" />
+            <label class="incomplete__task task">Pay Bills</label>
+            <input type="text" />
+            <button class="incomplete__edit edit">Edit</button>
+            <button class="incomplete__delete delete">
+              <img src="./remove.svg" alt="" />
+            </button>
+          </li>
+          <li class="incomplete__li_mode">
+            <input type="checkbox" />
+            <label class="incomplete__task task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="task" />
+            <button class="incomplete__edit edit">Save</button>
+            <button class="incomplete__delete delete">
+              <img src="./remove.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="complete">
+        <h3>Completed</h3>
+        <ul class="complete__tasks">
+          <li>
+            <input type="checkbox" checked />
+            <label class="complete__task task">See the Doctor</label>
+            <input type="text" class="task" />
+            <button class="complete__edit edit">Edit</button>
+            <button class="complete__delete delete">
+              <img src="./remove.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+      </section>
+    </article>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
