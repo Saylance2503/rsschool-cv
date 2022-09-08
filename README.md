@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Saylance2503.github.io/rsschool-cv/cv
+https://saylance2503.github.io/rsschool-cv/
